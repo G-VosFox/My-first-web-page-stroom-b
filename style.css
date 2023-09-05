@@ -16,3 +16,8 @@ h1 {
     margin-left: 50%;
     margin-right: 50%;
 }
+.list {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 20px;
+}
