@@ -4,24 +4,36 @@ body {
 }
 
 
+#me {
+    height: 400px;
+}
 #me img {
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     float: left;
+    height: 400px;
 }
 #me h1 {
     margin: 20px;
-    margin-left: 440px;
+    margin-left: 90px;
 }
 #me p {
     margin: 20px;
-    height: 541px;
 }
 
 
+#bc {
+    float: left;
+    display: grid;
+}
 #list {
     margin-left: 20px;
     margin-right: 300px;
     float: left;
+}
+#meme {
+    margin-left: 20px;
+    margin-top: 30px;
 }
 #wah1, #wah2 {
     width: 30%;
@@ -30,20 +42,27 @@ body {
     margin-left: -7%;
 }
 
-#meme {
+
+#footer {
     float: left;
+    height: 200px;
+    width: 100%;
+    background-color: black;
 }
-#link {
-    display:grid;
-    border: 1px solid black;
+.link {
+    float: left;
+    display: grid;
+    margin-top: 30px;
+    margin-left: 20px;
     padding: 5px;
 }
-#link img {
+.link img {
     width: 50px;
-    height:fit-content;
-    justify-self: baseline;
+    margin-right: 5px;
 }
-#link a {
+.link a {
     display: flex;
-    color: black;
+    padding-bottom: 20px;
+    color: white;
+    text-decoration: none;
 }
