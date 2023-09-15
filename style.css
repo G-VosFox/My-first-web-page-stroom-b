@@ -1,8 +1,12 @@
-#me {
-    display: flex;
+body {
+    background-color: rgb(85, 85, 147);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
 #me img {
     margin: 20px;
+    float: left;
 }
 #me h1 {
     margin: 20px;
@@ -10,25 +14,29 @@
 }
 #me p {
     margin: 20px;
+    height: 541px;
 }
 
 
-#hob {
-    display: flex;
-}
 #list {
     margin-left: 20px;
+    margin-right: 300px;
+    float: left;
 }
-#hob img {
-    width: 80%;
+#wah1, #wah2 {
+    width: 30%;
+}
+#wah2 {
+    margin-left: -7%;
 }
 
-
-#extra {
-    display:flex;
+#meme {
+    float: left;
 }
 #link {
     display:grid;
+    border: 1px solid black;
+    padding: 5px;
 }
 #link img {
     width: 50px;
@@ -37,4 +45,5 @@
 }
 #link a {
     display: flex;
+    color: black;
 }
