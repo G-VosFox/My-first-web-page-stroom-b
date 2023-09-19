@@ -1,6 +1,13 @@
+header {
+    height: 100px;
+    border-bottom: 2px solid black;
+}
+
+
 body {
     background-color: rgb(85, 85, 147);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 
 
@@ -12,6 +19,7 @@ body {
     margin-right: 20px;
     float: left;
     height: 400px;
+    border-radius: 5px;
 }
 #me h1 {
     margin: 20px;
@@ -27,9 +35,12 @@ body {
     display: grid;
 }
 #list {
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 300px;
     float: left;
+}
+#list h2 {
+    margin-left: 12px;
 }
 #meme {
     margin-left: 20px;
@@ -43,17 +54,12 @@ body {
 }
 
 
-#footer {
-    float: left;
-    height: 200px;
-    width: 100%;
-    background-color: black;
-}
+
 .link {
     float: left;
     display: grid;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 40px;
     padding: 5px;
 }
 .link img {
@@ -65,4 +71,15 @@ body {
     padding-bottom: 20px;
     color: white;
     text-decoration: none;
+}
+
+footer {
+    float: left;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+
+#wah {
+    width: 100%;
 }
