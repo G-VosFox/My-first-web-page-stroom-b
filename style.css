@@ -132,12 +132,27 @@ footer {
     width: 240px;
     margin-left: 150px;
 }
-.pose {
+#jump {
+    float: left;
+    width: 280px;
+    margin-left: 150px;
+}
+#pose {
     float: left;
     width: 800px;
+    margin-left: 20px;
 }
-.scare {
+#scare {
     float: left;
     margin-top: 370px;
-    margin-left: -200px;
+    margin-left: -160px;
+}
+#l a {
+    float: left;
+    color: black;
+    text-decoration: none;
+    border: 3px solid black;
+    background-color: rgb(85, 85, 147);
+    margin: 10px;
+    padding: 5px;
 }
