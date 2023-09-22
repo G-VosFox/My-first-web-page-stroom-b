@@ -56,6 +56,12 @@ body {
 
 
 
+footer {
+    float: left;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
 .link {
     float: left;
     display: grid;
@@ -73,14 +79,65 @@ body {
     color: white;
     text-decoration: none;
 }
-
-footer {
+#luigi {
     float: left;
-    height: 200px;
-    width: 100%;
-    background-color: black;
+    margin-top: 60px;
+    margin-left: 800px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 4px solid white;
+    background-color: rgb(27, 170, 27);
+}
+#luigi a {
+    text-decoration: none;
+    color: white;
 }
 
 #wah {
     width: 100%;
+}
+
+#l {
+    background-color: rgb(27, 170, 27);
+}
+#bang {
+    float: left;
+    width: 600px;
+}
+#ssb4 {
+    float: left;
+    margin-top: 150px;
+}
+#lego {
+    float: left;
+    width: 600px;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+#three {
+    display: block;
+    float: left;
+}
+#three h2 {
+    margin-left: 630px;
+    color: white;
+}
+#ml {
+    float: left;
+    width: 300px;
+    margin-left: 150px;
+}
+#movie {
+    float: left;
+    width: 240px;
+    margin-left: 150px;
+}
+.pose {
+    float: left;
+    width: 800px;
+}
+.scare {
+    float: left;
+    margin-top: 370px;
+    margin-left: -200px;
 }
